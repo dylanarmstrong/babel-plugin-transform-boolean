@@ -1,9 +1,23 @@
 {
   "version": "0.0.1",
   "name": "@dylanarmstrong/babel-plugin-transform-boolean",
+  "description": "Convert boolean operators into string concatenations",
   "license": "MIT",
-  "author": "Dylan Armstrong<dylan@dylan.is>",
+  "author": "Dylan Armstrong <dylan@dylan.is>",
   "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanarmstrong/babel-plugin-transform-boolean"
+  },
+  "keywords": [
+    "babel-plugin",
+    "sql",
+    "boolean"
+  ],
+  "bugs": {
+    "url": "https://github.com/dylanarmstrong/babel-plugin-transform-boolean/issues"
+  },
+  "homepage": "https://github.com/dylanarmstrong/babel-plugin-transform-boolean",
   "dependencies": {
     "@babel/core": "^7.11.5",
     "@babel/helper-plugin-utils": "^7.10.4"
